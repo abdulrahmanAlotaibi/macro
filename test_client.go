@@ -1,4 +1,4 @@
-package main
+package macro
 
 import (
     "context"
@@ -6,10 +6,10 @@ import (
     "time"
 
     "google.golang.org/grpc"
-    pb "github.com/abdulrahmanalotaibi/macro/protos/auth"
+    pb "github.com/abdulrahmanalotaibi/macro/protos/auth/authh"
 )
 
-func main() {
+func f() {
     conn, err := grpc.Dial("localhost:50051", grpc.WithInsecure(), grpc.WithBlock())
     if err != nil {
         log.Fatalf("did not connect: %v", err)

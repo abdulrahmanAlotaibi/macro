@@ -1,11 +1,11 @@
-package main
+package macro
 
 import (
     "log"
     "net"
 
     "google.golang.org/grpc"
-    pb "github.com/abdulrahmanalotaibi/macro/protos/auth"
+    pb "github.com/abdulrahmanalotaibi/macro/protos/auth/auth"
 )
 
 func main() {

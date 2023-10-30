@@ -114,7 +114,7 @@ func generateService(name string) {
 	if err != nil {
 		log.Fatalf("Failed to execute template: %v", err)
 	}
-	defer service_acc_file.Close()
+	 
 
 
 }

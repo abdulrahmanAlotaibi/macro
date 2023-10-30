@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package auth;
+option go_package = "github.com/abdulrahmanalotaibi/macro/protos/auth";
 
 // The greeting service definition.
 service Auth {
