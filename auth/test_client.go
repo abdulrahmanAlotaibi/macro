@@ -6,7 +6,7 @@ import (
     "time"
 
     "google.golang.org/grpc"
-    pb "macro/protos/auth"
+    pb "github.com/abdulrahmanalotaibi/macro/protos/auth"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
     "net"
 
     "google.golang.org/grpc"
-    pb "protos/auth"
+    pb "github.com/abdulrahmanalotaibi/macro/protos/auth"
 )
 
 func main() {

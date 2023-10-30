@@ -1,4 +1,4 @@
-module github.com/abdulrahmanalotaibi/macro/protos/auth
+module github.com/abdulrahmanalotaibi/macro
 
 go 1.16
 

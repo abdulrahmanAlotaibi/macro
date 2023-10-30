@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package auth;
+
+// The greeting service definition.
+service Auth {
+  // Sends a greeting
+  rpc Check (CheckRequest) returns (CheckResponse) {}
+}
+
+// The request message containing the user's name.
+message CheckRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message CheckResponse {
+  string message = 1;
+}
